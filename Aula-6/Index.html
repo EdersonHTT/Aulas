@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="corpo">
+    <div class="container">
+        <form method="get">
+            <H1>Cadastrar-se</H1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            <br>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Uma senha">
+            <br>
+            <br>
+            <label for="cor">Cor preferida</label>
+            <select name="cor" id="cor">
+                <br>
+                <br>
+                <option value="preto">preto</option>
+                <option value="branco">branco</option>
+                <option value="Roxo">Roxo</option>
+                <option value="vermelho">vermelho</option>
+                <option value="azul">azul</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" name="homem">
+            <label for="homem">Homem</label>
+            <br>
+            <input type="checkbox" name="mulher">
+            <label for="mulher">Mulher</label>
+            <br>
+            <br>
+            <label for="descrição" id="des">Descrição</label>
+            <textarea name="descrição" id="descrição" cols="20" rows="2"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Confirmar" id="conf">
+            <input type="reset" value="Resetar" id="reset">
+        </form>
+    </div>
+    <form action="">
+        <table border="1">
+            <tr>
+                <th colspan="2" align="center">
+                    <H1>Algo</H1>
+                </th>
+            </tr>
+            <tr >
+                <th rowspan="2">
+                    algo
+                </th>
+                <td>
+                    algo
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="nome">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <img  id="img" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXhnMDZiYWpxNmV5aXN1aXN3ajlhajdibjljZXM0MHFpMXptaWVkMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hDMJjUNxLhIjK/giphy.webp" alt="">
+</body>
+
+</html>

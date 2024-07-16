@@ -1,0 +1,30 @@
+#corpo{
+    background-color: darkred;
+}
+.container{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    #conf{
+        background-color: rgb(96, 96, 96);
+        color: rgb(255, 221, 0);
+    }
+    #reset{
+        background-color: rgb(96, 96, 96);
+        color: rgb(255, 221, 0);
+        align-items: end;
+    }
+    range: auto;
+}
+#img{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
