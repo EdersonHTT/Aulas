@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7</title>
+</head>
+<body>
+    <form action="inicio.html" method="post">
+    <table border="1" > 
+        <th colspan="2">Cadastro de aluno</th>
+        <tr>
+            <td><label for="nome">Nome</label></td>
+            <td><input type="text" nome="nome"></td>
+        </tr>
+        <tr>
+            <td><label for="senha">Senha</label></td>
+            <td><input type="password" name="senha"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="box">Gênero</label></td>
+            <td>
+                <input type="radio" name="box">
+                <label for="box">Homem</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="box">
+                <label for="box">Mulher</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="select">Turno</label></td>
+            <td>
+                <select name="select" id="select">
+                <option>Manha</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="area">Anime Favorito</label></td>
+            <td><textarea name="" id="" cols="23" rows="0"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Confirmar">
+                <input type="reset" value="Resetar">
+            </td>
+        </tr>
+    </table>
+    </form>
+    
+</body>
+</html>
