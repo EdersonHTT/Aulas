@@ -1,0 +1,23 @@
+body{
+    height: 90vh;
+}
+
+
+#conteiner{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    div{
+        
+        flex-grow: 20%;
+        flex-shrink: 10%;
+        flex-basis: 20%;
+        flex-flow: 10%;
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+    }
+}
