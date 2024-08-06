@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1f 2f 1f;
+    grid-template-rows: 100px 100xp; 
+    grid-template-areas: 
+    "d1 d2 d3"
+    "d4 d5 d6"; 
+    gap: 10px 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+div{ 
+    width: 300px;
+    height: 200px;
+    grid-area: div;
+    background-color: blue;
+}
+
+#d1{
+    grid-area: d1;
+}
+
+#d2{
+    grid-area: d2;
+
+}
+
+#d3{
+    grid-area: d3;
+
+}
+
+#d4{
+    grid-area: d4;
+
+}
+
+#d5{
+    grid-area: d5;
+
+}
+
+#d6{
+    grid-area: d6;
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div div{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+}
