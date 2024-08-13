@@ -65,7 +65,7 @@ let c = Math.floor(Math.random()*100)
 
 console.log(conta(a , c))
 
-/*3.1)*/
+/*3.2)*/
 
 function conta2 (n1, n2){
     console.log(n1, n2)
@@ -76,7 +76,7 @@ let a2 = Math.floor(Math.random()*100) + 1
 
 console.log(conta2(a2 , 4))
 
-/*3.1)*/
+/*3.3)*/
 
 let a3= Math.floor(Math.random()*100)
 

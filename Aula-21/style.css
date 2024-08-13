@@ -4,6 +4,7 @@ body{
     justify-content: center;
     height: 100vh;
     background-color: rgb(97, 0, 0);
+    background: linear-gradient(20deg, rgb(40, 2, 2) 0%,rgb(123, 0, 0) 30%,rgb(182, 0, 0) 30%,rgb(251, 0, 0) 100%);
 }
 
 button{
