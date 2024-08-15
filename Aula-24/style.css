@@ -1,0 +1,12 @@
+div{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    position: relative;
+}
